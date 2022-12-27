@@ -9,11 +9,9 @@ import 'package:core/presentation/pages/tv_series/tv_detail_page.dart';
 import 'package:core/presentation/pages/tv_series/tv_search_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:provider/provider.dart';
 
 import '../../../core.dart';
 import '../../../domain/entities/tv_series/tvseries.dart';
-import '../../provider/tv_series/tv_list_notifier.dart';
 import '../../widgets/custom_drawer.dart';
 
 class HomeTvSeriesPage extends StatefulWidget {

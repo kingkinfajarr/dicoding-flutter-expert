@@ -5,14 +5,11 @@ import 'package:core/presentation/bloc/movie/watchlist_movies/watchlist_movies_b
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:provider/provider.dart';
 
 import '../../core.dart';
 import '../../domain/entities/genre.dart';
-import '../../domain/entities/movie.dart';
 import '../../domain/entities/movie_detail.dart';
 import '../bloc/movie/movie_detail/movie_detail_bloc.dart';
-import '../provider/movie_detail_notifier.dart';
 
 class MovieDetailPage extends StatefulWidget {
   static const ROUTE_NAME = '/detail';

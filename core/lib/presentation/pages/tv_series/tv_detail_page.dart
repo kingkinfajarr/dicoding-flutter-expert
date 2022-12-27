@@ -7,13 +7,10 @@ import 'package:core/presentation/bloc/tv_series/watchlist_tv_status/watchlist_t
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:provider/provider.dart';
 
 import '../../../core.dart';
 import '../../../domain/entities/genre.dart';
 import '../../../domain/entities/tv_series/tv_detail.dart';
-import '../../../domain/entities/tv_series/tvseries.dart';
-import '../../provider/tv_series/tv_detail_notifier.dart';
 
 class TvDetailPage extends StatefulWidget {
   static const ROUTE_NAME = '/detail-tv';

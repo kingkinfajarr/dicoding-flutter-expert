@@ -1,10 +1,7 @@
 import 'package:core/presentation/bloc/movie/top_rated_movies/top_rated_movies_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:provider/provider.dart';
 
-import '../../core.dart';
-import '../provider/top_rated_movies_notifier.dart';
 import '../widgets/movie_card_list.dart';
 
 class TopRatedMoviesPage extends StatefulWidget {

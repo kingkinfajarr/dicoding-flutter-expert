@@ -1,11 +1,9 @@
 import 'package:core/presentation/bloc/tv_series/watchlist_tv_data/watchlist_tv_series_data_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:provider/provider.dart';
 
 import '../../../common/utils.dart';
 import '../../../core.dart';
-import '../../provider/tv_series/watchlist_tv_notifier.dart';
 import '../../widgets/tv_series_card_list.dart';
 
 class WatchlistTvPage extends StatefulWidget {
