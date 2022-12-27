@@ -1,0 +1,22 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "backdrop_path": null,
+      "first_air_date": "1964-09-30",
+      "genre_ids": [18],
+      "id": 11303,
+      "name": "The Wednesday Play",
+      "origin_country": ["GB"],
+      "original_language": "en",
+      "original_name": "The Wednesday Play",
+      "overview": "The Wednesday Play is an anthology series of British television plays which ran on BBC1 from October 1964 to May 1970. The plays were usually written for television, although adaptations from other sources also featured. The series gained a reputation for presenting contemporary social dramas, and for bringing issues to the attention of a mass audience that would not otherwise have been discussed on screen.",
+      "popularity": 15.479,
+      "poster_path": "/pJ3G30k2IjxHnipXobZJZKQZErR.jpg",
+      "vote_average": 4,
+      "vote_count": 3
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 19
+}

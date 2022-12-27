@@ -1,0 +1,22 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "backdrop_path": "/path.jpg",
+      "first_air_date": "2021-08-03",
+      "genre_ids": [1, 2, 3, 4],
+      "id": 130542,
+      "name": "Name",
+      "origin_country": ["IN"],
+      "original_language": "en",
+      "original_name": "Original Name",
+      "overview": "Overview",
+      "popularity": 1526.28,
+      "poster_path": "/path.jpg",
+      "vote_average": 3.0,
+      "vote_count": 6
+    }
+  ],
+  "total_pages": 43,
+  "total_results": 855
+}
