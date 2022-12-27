@@ -7,11 +7,9 @@ import 'package:core/presentation/pages/search_page.dart';
 import 'package:core/presentation/pages/top_rated_movies_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:provider/provider.dart';
 
 import '../../core.dart';
 import '../../domain/entities/movie.dart';
-import '../provider/movie_list_notifier.dart';
 import '../widgets/custom_drawer.dart';
 import 'movie_detail_page.dart';
 
