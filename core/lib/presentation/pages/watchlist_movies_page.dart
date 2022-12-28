@@ -50,8 +50,7 @@ class _WatchlistMoviesPageState extends State<WatchlistMoviesPage>
               );
             } else if (state is WatchlistMoviesDataHasData) {
               return state.result.isNotEmpty
-                  ? Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+                  ? ListView(
                       children: [
                         Text(
                           'Movies',

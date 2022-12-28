@@ -50,8 +50,7 @@ class _WatchlistTvPageState extends State<WatchlistTvPage> with RouteAware {
               );
             } else if (state is WatchlistTvSeriesDataHasData) {
               return state.result.isNotEmpty
-                  ? Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+                  ? ListView(
                       children: [
                         Text(
                           'TV Series',
