@@ -2,6 +2,15 @@
 
 # a199-flutter-expert-project
 
+<p>Firebase Analytics</p>
+<img src="assets/firebase-analytic-1.jpeg"/>
+<img src="assets/firebase-analytic-2.jpeg"/>
+<img src="assets/firebase-analytic-3.jpeg"/>
+<img src="assets/firebase-analytic-4.jpeg"/>
+
+<p>Firebase Crashlytics</p>
+<img src="assets/firebase-crash.jpeg"/>
+
 Repository ini merupakan starter project submission kelas Flutter Expert Dicoding Indonesia.
 
 ---
