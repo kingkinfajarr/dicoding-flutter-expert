@@ -1,6 +1,7 @@
 import 'package:about/about_page.dart';
 import 'package:core/common/utils.dart';
 import 'package:core/core.dart';
+import 'package:core/data/datasources/http_ssl_pinning.dart';
 import 'package:core/presentation/bloc/movie/movie_detail/movie_detail_bloc.dart';
 import 'package:core/presentation/bloc/movie/movie_recommendations/movies_recommendations_bloc.dart';
 import 'package:core/presentation/bloc/movie/now_playing_movies/now_playing_movies_bloc.dart';
@@ -42,6 +43,7 @@ import 'package:ditonton/injection.dart' as di;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await HttpSSLPinning.init();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
